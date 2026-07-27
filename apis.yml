@@ -1,22 +1,70 @@
 aid: heron-power
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heron-power.png
 name: Heron Power
-description: Heron Power is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Heron Power is an industrial power-electronics company modernizing the
+  electrical grid with solid-state transformers and integrated power
+  conversion systems. Founded by former Tesla executive Drew Baglino, the
+  company builds Heron Link products that combine a solid-state transformer
+  with a power supply or inverter for two markets: data centers (AI and
+  hyperscale power delivery, including 800 VDC datacenter architectures) and
+  solar-and-storage renewable energy systems. Heron Power targets the grid
+  infrastructure bottlenecks of the clean-energy transition, replacing century-old
+  passive transformer technology with dense, controllable, software-defined
+  power hardware. The company is backed by Andreessen Horowitz (a16z) and
+  Breakthrough Energy. Heron Power is a hardware and infrastructure company and
+  does not currently publish a public API, developer portal, or SDKs; this
+  profile is maintained in the API Evangelist network for company intelligence.
 url: https://raw.githubusercontent.com/api-evangelist/heron-power/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Breakthrough Energy
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Power Electronics
+- Grid Infrastructure
+- Solid-State Transformers
+- Data Centers
+- Renewable Energy
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/heron-power-domain-security.yml
+- type: Website
+  url: https://heronpower.com
+- type: Blog
+  url: https://heronpower.com/news
+- type: PrivacyPolicy
+  url: https://heronpower.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://heronpower.com/legal/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
