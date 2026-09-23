@@ -1,0 +1,26 @@
+# Front Door AI Index — heron-power — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: heron-power
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: heronpower.com
+  final_host: heronpower.com
+  ownership: own
+  owner: heron-power
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 43
+  host_score: 43
+  density: 20.76
+  words: 2071
+  tiers:
+    agentic: 0
+    core: 19
+    model: 24
+  ambiguous: 0
+  top_terms:
+    transformer: 24
+    AI: 19
