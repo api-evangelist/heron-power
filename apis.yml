@@ -54,7 +54,7 @@ tags:
 - Power Electronics
 - Grid Infrastructure
 - Solid-State Transformers
-- Data-Center
+- Data Center
 - Renewable Energy
 - Hardware
 tags_raw:
@@ -66,6 +66,7 @@ tags_raw:
 - Data Centers
 - Renewable Energy
 - Hardware
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
