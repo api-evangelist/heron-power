@@ -28,6 +28,32 @@ edges:
     sector: American Dynamism
   detected_by: sweep-vc-portfolios.py
   first_seen: '2026-10-21'
+- partner_name: Open Compute Project Foundation
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.opencompute.org/membership/membership-directory
+  category: open data center hardware standards membership
+  contract_reference:
+    register: Open Compute Project membership directory (opencompute.org/membership/membership-directory)
+    standard: Open Compute Project (OCP) specifications
+    spec_file: null
+    role: ocp-member
+    registered_name: Heron Power
+    register_id: http://heronpower.com
+    matched_domain: heronpower.com
+    matched_by: domain
+    member_since: '2025'
+    signal_note: 'participation only: corporate membership of the Open Compute Project (level recorded as partner_tier);
+      membership is not product conformance (OCP Accepted / Inspired products are a separate marketplace, not read)'
+    detected_by: sweep-data-center-tier-certification.py
+    detected: '2026-10-21'
+  detected_by: sweep-data-center-tier-certification.py
+  first_seen: '2026-10-21'
+  partner_tier: Startup
 generated: '2026-10-21'
 method: searched
 source:
@@ -44,3 +70,7 @@ checked:
 - https://www.indexventures.com/companies/
 - https://www.sequoiacap.com/our-companies/
 - https://www.sequoiacap.com/sitemap.xml
+- https://uptimeinstitute.com/uptime-institute-awards/list
+- https://www.climateneutraldatacentre.net/signatories/
+- https://www.opencompute.org/membership/membership-directory
+- https://www.thegreengrid.org/en/about-us/members
